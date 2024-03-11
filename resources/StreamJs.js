@@ -232,7 +232,7 @@ document.addEventListener('keydown', function (e) {
 
 
 const videolink = window.location.href;
-const Linkinlink = videolink.replace("/watch/", "/");
+const Linkinlink = videolink.replace("/page/", "/watch/");
 
 function vlc_player() {
     const openLinkinlink = Linkinlink;
