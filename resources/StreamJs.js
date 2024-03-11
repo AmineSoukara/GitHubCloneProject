@@ -246,6 +246,12 @@ function mx_player() {
     window.location.href = openMx;
 }
 
+function x_player() {
+    const openLinkinlink = Linkinlink;
+    const openX = `intent:${openLinkinlink}#Intent;package=com.daljeet.xplayer;end`;
+    window.location.href = openX;
+}
+
 function playit_player() {
     const openLinkinlink = Linkinlink;
     const openPlayit = `playit://playerv2/video?url=${openLinkinlink}`;
@@ -274,3 +280,10 @@ function LinkinDownload() {
     const openLinkinlink = Linkinlink;
     window.location.href = openLinkinlink;
       }
+
+
+function LinkinApp() {
+    const openLinkinlink = `https://play.google.com/store/apps/details?id=com.daljeet.xplayer`;
+    window.location.href = openLinkinlink;
+      }
+
